@@ -44,7 +44,7 @@ if (true) {
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-console.log(addone(5))
+console.log(addone(5)) // This wont give any error as this is allowed
 
 function addone(num){
     return num + 1

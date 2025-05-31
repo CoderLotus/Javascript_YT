@@ -52,7 +52,7 @@ function addone(num){
 
 
 
-addTwo(5)
+addTwo(5) // This throws in error as in function declaration of this type function can not be called before itself
 const addTwo = function(num){
     return num + 2
 }

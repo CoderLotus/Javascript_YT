@@ -3,14 +3,14 @@ const user = {
     price: 999,
 
     welcomeMessage: function() {
-        console.log(`${this.username} , welcome to website`);
-        console.log(this);
+        console.log(`${this.username} , welcome to website`); //"This" keyword refers to current context
+        console.log(this); //Prints all the current context
     }
 
 }
 
 // user.welcomeMessage()
-// user.username = "sam"
+// user.username = "sam" // Sam is changed here so current context changed so in the next line message is printed for Sam
 // user.welcomeMessage()
 
 // console.log(this);

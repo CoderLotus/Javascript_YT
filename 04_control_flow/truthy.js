@@ -6,11 +6,13 @@ if (userEmail) {
     console.log("Don't have user email");
 }
 
-// falsy values
+//Imp for interview: 
 
-// false, 0, -0, BigInt 0n, "", null, undefined, NaN
+// falsy values => All these are always false
 
-//truthy values
+// false, 0, -0, BigInt (0n), "", null, undefined, NaN
+
+//truthy values => Some surprising values which are true
 // "0", 'false', " ", [], {}, function(){}
 
 // if (userEmail.length === 0) {
@@ -22,6 +24,11 @@ const emptyObj = {}
 if (Object.keys(emptyObj).length === 0) {
     console.log("Object is empty");
 }
+
+// False == 0 //This returns true
+// False == '' //This returns true
+// '' == 0 //This returns true
+
 
 // Nullish Coalescing Operator (??): null undefined
 

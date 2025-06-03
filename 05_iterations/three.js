@@ -5,7 +5,7 @@
 
 const arr = [1, 2, 3, 4, 5]
 
-for (const num of arr) {
+for (const num of arr) { //Used for iterating the array or object in a loop. 
     //console.log(num);
 }
 
@@ -16,11 +16,11 @@ for (const greet of greetings) {
 
 // Maps
 
-const map = new Map()
+const map = new Map() //Gives unique values and order in which we enter the entries is maintained.
 map.set('IN', "India")
 map.set('USA', "United States of America")
 map.set('Fr', "France")
-map.set('IN', "India")
+map.set('IN', "India") //Does not get repeated
 
 
 // console.log(map);

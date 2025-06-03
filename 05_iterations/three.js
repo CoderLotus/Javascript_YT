@@ -25,7 +25,7 @@ map.set('IN', "India") //Does not get repeated
 
 // console.log(map);
 
-for (const [key, value] of map) {
+for (const [key, value] of map) { //Thios is a method to destructure the array ointo key and value pairs else the complete array will be printed
     // console.log(key, ':-', value);
 }
 
@@ -33,6 +33,9 @@ const myObject = {
     game1: 'NFS',
     game2: 'Spiderman'
 }
+
+//This syntax does not work for objects; it will show an error that object is not itertable.
+//There are other ways to do so we will learn about them shortly
 
 // for (const [key, value] of myObject) {
 //     console.log(key, ':-', value);

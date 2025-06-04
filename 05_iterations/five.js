@@ -1,8 +1,14 @@
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
+//Inbuilt loop in js
+//No name for this function
+//Val is for iterating each item
+
 // coding.forEach( function (val){
 //     console.log(val);
 // } )
+
+//Arrow function
 
 // coding.forEach( (item) => {
 //     console.log(item);
